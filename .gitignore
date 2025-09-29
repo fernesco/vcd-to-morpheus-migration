@@ -25,6 +25,7 @@ dist/
 .idea/
 
 # System files
+**.DS_Store
 .DS_Store
 Thumbs.db
 

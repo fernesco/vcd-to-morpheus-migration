@@ -1,0 +1,8 @@
+# Optional per‑CSP overrides
+org_codes:
+  "Acme Corp": "ACME"
+  "Globex": "GLOBEX"
+
+resource_pool_map:
+  "OrgVDC-Prod": "RP-Prod"
+  "OrgVDC-Dev": "RP-Dev"

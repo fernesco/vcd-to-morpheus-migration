@@ -1,0 +1,19 @@
+defaults:
+  verify_ssl: true
+  log_level: INFO
+vcd:
+  host: ${VCD_HOST}
+  user: ${VCD_USER}
+  password: ${VCD_PASSWORD}
+  api_version: ${VCD_API_VERSION}
+morpheus:
+  host: ${MORPHEUS_HOST}
+  token: ${MORPHEUS_TOKEN}
+mapping:
+  org_to_tenant:
+    code_format: "{name}"
+  vdc_to_resource_pool:
+    strategy: "name_match"
+  catalog_to_blueprint:
+    import_ova: true
+    import_iso: false
